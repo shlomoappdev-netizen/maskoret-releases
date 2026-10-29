@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>מחשבון שכר</title>
+<meta name="description" content="מחשבון שכר — תקציב משק בית: מהברוטו לנטו, הוצאות, כרטיס אשראי, חיסכון ותחזית. מסתנכרן בין המחשב לטלפון.">
+<style>
+  :root { --bg:#f6f8f7; --card:#ffffff; --text:#14211d; --muted:#5b6b66; --accent:#0f8a78; --border:#dde5e2; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1513; --card:#17201d; --text:#e8efec; --muted:#9db0a9; --accent:#33b39f; --border:#26332f; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system, "Segoe UI", Arial, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 16px 56px; }
+  header { display:flex; align-items:center; gap:16px; margin-bottom: 8px; }
+  header img { width:72px; height:72px; border-radius:18px; }
+  h1 { margin:0; font-size: 2rem; }
+  .lead { color:var(--muted); font-size:1.1rem; margin: 4px 0 28px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap:12px; }
+  .dl { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px; text-decoration:none; color:var(--text); display:block; }
+  .dl strong { display:block; font-size:1.05rem; }
+  .dl span { color:var(--muted); font-size:.9rem; }
+  .dl:hover { border-color: var(--accent); }
+  .note { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px 18px; margin-top:24px; color:var(--muted); font-size:.95rem; }
+  h2 { margin-top: 36px; }
+  ul { padding-inline-start: 20px; }
+  footer { margin-top: 40px; color: var(--muted); font-size:.9rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>מחשבון שכר</h1>
+      <div class="lead">התקציב של משק הבית במקום אחד — מהברוטו לנטו ועד מה שנשאר בסוף החודש.</div>
+    </div>
+  </header>
+
+  <div class="grid">
+    <a class="dl" href="https://github.com/shlomoappdev-netizen/maskoret-releases/releases/latest/download/maskoret-android.apk">
+      <strong>אנדרואיד</strong><span>קובץ APK</span>
+    </a>
+    <a class="dl" href="https://github.com/shlomoappdev-netizen/maskoret-releases/releases/latest/download/maskoret-windows.zip">
+      <strong>Windows</strong><span>קובץ ZIP — פותחים ומפעילים את maskoret.exe</span>
+    </a>
+    <a class="dl" href="https://github.com/shlomoappdev-netizen/maskoret-releases/releases/latest/download/maskoret-mac.dmg">
+      <strong>Mac</strong><span>קובץ DMG — גוררים ל-Applications</span>
+    </a>
+    <div class="dl">
+      <strong>אייפון</strong><span>בקרוב</span>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>התקנה ראשונה:</b> באנדרואיד צריך לאשר "התקנה ממקורות לא ידועים". ב-Mac, אם מופיעה הודעה שהמפתח לא מזוהה:
+    הגדרות המערכת ← פרטיות ואבטחה ← "פתח בכל זאת". ב-Windows: "מידע נוסף" ← "הפעל בכל זאת".
+    אחרי ההתקנה הראשונה האפליקציה מודיעה לבד כשיש גרסה חדשה.
+  </div>
+
+  <h2>מה יש באפליקציה</h2>
+  <ul>
+    <li>חישוב אוטומטי של מס הכנסה, ביטוח לאומי, מס בריאות ופנסיה — מהברוטו לנטו.</li>
+    <li>הוצאות קבועות, חשבונות וחיסכון, ייבוא פירוט כרטיס אשראי, תשלומים ותחזית לחודשים הבאים.</li>
+    <li>משק בית משותף: מזמינים את בני הבית, וכל שינוי מגיע לכל המכשירים תוך שניות.</li>
+    <li>היסטוריית גרסאות בשרת — אפשר לשחזר כל אחת מ-30 הגרסאות האחרונות.</li>
+  </ul>
+
+  <footer>
+    <a href="privacy.html">מדיניות פרטיות</a> · <a href="terms.html">תנאי שימוש</a> · יצירת קשר: <a href="mailto:shlomoappdev@gmail.com">shlomoappdev@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>

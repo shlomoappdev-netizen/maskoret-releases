@@ -1,0 +1,30 @@
+{
+  "version": "4.1.4",
+  "build": 34,
+  "date": "2026-10-29",
+  "notes": [
+    "אפשר לחבר חשבון Google לחשבון קיים: חשבון ומשק בית ← ״חבר חשבון Google״",
+    "חדש: התחברות עם Google (״המשך עם Google״ במסך ההתחברות). תיקון: במק האפליקציה קרסה כשלחצו עליו",
+    "חודשים: ״נשאר״ בכל חודש מחושב בדיוק כמו ״נשאר בסוף החודש״ בסיכום (כולל אשראי, חיסכון ותנועות), עם הסבר ופירוט מלא בלחיצה על חודש",
+    "הכל בענן: הנתונים נשמרים בשרת בלבד. במכשיר נשאר רק עותק זמני מוצפן לעבודה בלי אינטרנט, והוא נמחק בהתנתקות",
+    "בלי גיבויים מקומיים ובלי iCloud — מסך ״גרסאות קודמות״ מציג את 30 הגרסאות האחרונות מהשרת ומאפשר לשחזר כל אחת",
+    "חשבון אחר שמתחבר באותו מכשיר מתחיל ריק ולא רואה את הנתונים של החשבון הקודם"
+  ],
+  "platforms": {
+    "android": {
+      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.1.4/maskoret-android.apk",
+      "sha256": "d9e9c9d16d72f29c1976549c390a47b6713cb9c617b5aa66dea85d7b87f845b0",
+      "size": 58615641
+    },
+    "windows": {
+      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.1.4/maskoret-windows.zip",
+      "sha256": "7af59a1d295aab94069a9b80160623d4aa4b44db617258c9de858666ebf0abc0",
+      "size": 13711154
+    },
+    "mac": {
+      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.1.4/maskoret-mac.dmg",
+      "sha256": "fe57155b2586a23da1187872ed283fa08ebc1521391622e99173ad5b2edc714e",
+      "size": 32596269
+    }
+  }
+}
