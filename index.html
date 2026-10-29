@@ -790,7 +790,7 @@
   }
 
   // live version info from latest.json
-  fetch('latest.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(m => {
+  fetch('https://shlomoappdev-netizen.github.io/maskoret-releases/latest.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(m => {
     if (!m) return;
     const mb = b => (b / 1048576).toFixed(0) + ' MB';
     for (const k of ['android', 'windows', 'mac']) {
