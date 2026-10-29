@@ -12,13 +12,13 @@
   "platforms": {
     "android": {
       "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.1.5/maskoret-android.apk",
-      "sha256": "c9cfe2acd2065e3d5f60d2ef3937f7ea01f11c77acd10ffc5f434479d8331f8a",
-      "size": 58845845
+      "sha256": "9e550e0df3b5ac774c66f9e8257c1e1c2be083bfb399904ee47b4559beb3b70b",
+      "size": 58927769
     },
     "windows": {
       "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.1.5/maskoret-windows.zip",
-      "sha256": "7af59a1d295aab94069a9b80160623d4aa4b44db617258c9de858666ebf0abc0",
-      "size": 13711154
+      "sha256": "81ee3c2a8dbe25ae7bfa2807bc016ef932e393eaf4599dfecdbc4b0800779e90",
+      "size": 14049712
     },
     "mac": {
       "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.1.5/maskoret-mac.dmg",
