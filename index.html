@@ -814,6 +814,14 @@
   fetch('https://shlomoappdev-netizen.github.io/maskoret-releases/latest.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(m => {
     if (!m) return;
     const mb = b => (b / 1048576).toFixed(0) + ' MB';
+    // Windows: the installer once it's published (from 4.2.0), otherwise the ZIP.
+    const setup = m.platforms && m.platforms.windows_setup;
+    if (setup) {
+      m.platforms.windows = setup;
+      document.querySelectorAll('a[data-os="windows"]').forEach(a => { a.href = setup.url; });
+      const label = $('[data-size="windows"]');
+      if (label) label.textContent = 'תוכנת התקנה';
+    }
     for (const k of ['android', 'windows', 'mac']) {
       const p = m.platforms && m.platforms[k], el = $(`[data-size="${k}"]`);
       if (p && p.size && el) el.textContent += ' · ' + mb(p.size);
