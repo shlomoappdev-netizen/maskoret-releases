@@ -1,29 +1,40 @@
 {
-  "version": "4.1.5",
-  "build": 35,
-  "date": "2026-10-29",
+  "version": "4.2.0",
+  "build": 36,
+  "date": "2026-10-30",
   "notes": [
-    "עדכונים לכולם: האפליקציה במק בודקת אם יש גרסה חדשה באתר ההורדות, ומורידה ומתקינה אותה בלחיצה (עם בדיקת חתימה)",
-    "אפשר לחבר חשבון Google לחשבון קיים: חשבון ומשק בית ← ״חבר חשבון Google״",
-    "חדש: התחברות עם Google (״המשך עם Google״ במסך ההתחברות). תיקון: במק האפליקציה קרסה כשלחצו עליו",
-    "חודשים: ״נשאר״ בכל חודש מחושב בדיוק כמו ״נשאר בסוף החודש״ בסיכום (כולל אשראי, חיסכון ותנועות), עם הסבר ופירוט מלא בלחיצה על חודש",
-    "הכל בענן: הנתונים נשמרים בשרת בלבד. במכשיר נשאר רק עותק זמני מוצפן לעבודה בלי אינטרנט, והוא נמחק בהתנתקות"
+    "חדש: אחרי כל עדכון מופיע חלון ״מה חדש״ עם השינויים בגרסה, שנסגר בלחיצה",
+    "הודעות מהצוות: הודעה חשובה מופיעה בראש מסך הסיכום, עם איקס לסגירה",
+    "עדכונים: האפליקציה בודקת לבד אם יש גרסה חדשה (בהפעלה וכל 3 שעות) ומציעה להתקין אותה",
+    "חדש: תמיכה ודיווח תקלות מתוך האפליקציה — צ'אט חי עם התמיכה, עם אפשרות לצרף יומן טכני בלחיצה",
+    "מספר מנוי אישי מופיע ב״חשבון ומשק בית״, כדי לפנות לתמיכה בקלות",
+    "אייפון ואנדרואיד: התחברות עם Google בחלון המובנה של המערכת, בלי לעבור לדפדפן",
+    "תיקון: באנדרואיד וב-Windows שדה קוד האימות קיבל רק 6 ספרות",
+    "אנדרואיד ו-Windows: ניווט מקובץ כמו במק (החודש / הכסף שלי / הגדרות), ומסכים חדשים — כרטיס אשראי עם ייבוא קובץ Max, תחזית וחודשים",
+    "Windows: האפליקציה מותקנת במחשב עם תוכנת התקנה (קיצור דרך בתפריט התחל ובשולחן העבודה, הסרה מ״אפליקציות״), במקום קובץ ZIP נייד; עדכונים מותקנים ברקע",
+    "אנדרואיד ו-Windows: עיצוב חדש כמו במק ובאייפון — זכוכית שקופה, כרטיס ״נשאר לך בסוף החודש״ בגרדיאנט, דונאט ״לאן הולך הנטו״, פונט עברי, מצב כהה, והאייקון של האפליקציה",
+    "למנהל: ניהול מנויים (חיפוש, כרטיס מנוי ופעולות), תיבת פניות עם הצעות טיפול מ-Claude ושיחה איתו בתוך הפנייה, לשונית משימות פיתוח, ושליחת הודעה לכל המשתמשים"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.1.5/maskoret-android.apk",
-      "sha256": "9e550e0df3b5ac774c66f9e8257c1e1c2be083bfb399904ee47b4559beb3b70b",
-      "size": 58927769
+      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.2.0/maskoret-android.apk",
+      "sha256": "ef22825de3bec54e00723fb43607c35130c732a43544fc9321a182130b7c0af5",
+      "size": 63273491
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.1.5/maskoret-windows.zip",
-      "sha256": "81ee3c2a8dbe25ae7bfa2807bc016ef932e393eaf4599dfecdbc4b0800779e90",
-      "size": 14049712
+      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.2.0/maskoret-windows.zip",
+      "sha256": "bbe9cbf851238ea2e4d186510e604a826671bfe059d41bf35eceb0efe53ad6d0",
+      "size": 14819049
+    },
+    "windows_setup": {
+      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.2.0/maskoret-windows-setup.exe",
+      "sha256": "4184b9567df31d83f4e1715c7c45f522e5dcee6557deb8e5ef558db14973b57a",
+      "size": 12412489
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.1.5/maskoret-mac.dmg",
-      "sha256": "89ac876c068a81b069191946b1ecdaea2fc994aa56d7709f1a4347522eacbc52",
-      "size": 32622638
+      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.2.0/maskoret-mac.dmg",
+      "sha256": "429bb1cac11ef4891e0a5268e6a441007cc59c82afb5af60303aa1f777ac8045",
+      "size": 33901250
     }
   }
 }
