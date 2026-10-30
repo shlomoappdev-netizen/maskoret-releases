@@ -819,6 +819,8 @@
     if (setup) {
       m.platforms.windows = setup;
       document.querySelectorAll('a[data-os="windows"]').forEach(a => { a.href = setup.url; });
+      const hero = $('#heroDownload');
+      if (hero && hero.href.endsWith('maskoret-windows.zip')) hero.href = setup.url;
       const label = $('[data-size="windows"]');
       if (label) label.textContent = 'תוכנת התקנה';
     }
