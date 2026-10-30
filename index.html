@@ -842,15 +842,21 @@
   fetch('https://shlomoappdev-netizen.github.io/maskoret-releases/latest.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(m => {
     if (!m) return;
     const mb = b => (b / 1048576).toFixed(0) + ' MB';
-    // Windows: the installer once it's published (from 4.2.0), otherwise the ZIP.
+    // Every download comes from latest.json, wherever the release lives. Windows: the installer once it's published.
     const setup = m.platforms && m.platforms.windows_setup;
     if (setup) {
       m.platforms.windows = setup;
-      document.querySelectorAll('a[data-os="windows"]').forEach(a => { a.href = setup.url; });
-      const hero = $('#heroDownload');
-      if (hero && hero.href.endsWith('maskoret-windows.zip')) hero.href = setup.url;
       const label = $('[data-size="windows"]');
       if (label) label.textContent = 'תוכנת התקנה';
+    }
+    const hero = $('#heroDownload');
+    for (const k of ['android', 'windows', 'mac']) {
+      const p = m.platforms && m.platforms[k];
+      if (!p || !p.url) continue;
+      document.querySelectorAll(`a[data-os="${k}"]`).forEach(a => {
+        if (hero && hero.href === a.href) hero.href = p.url;
+        a.href = p.url;
+      });
     }
     for (const k of ['android', 'windows', 'mac']) {
       const p = m.platforms && m.platforms[k], el = $(`[data-size="${k}"]`);
