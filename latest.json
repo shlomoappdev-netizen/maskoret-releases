@@ -1,32 +1,31 @@
 {
-  "version": "4.3.0",
-  "build": 37,
+  "version": "4.5.0",
+  "build": 39,
   "date": "2026-10-30",
   "notes": [
-    "אנדרואיד ו-Windows: מסך מעשרות כמו במק — חישוב לפי הנטו בפועל, תרומות, הוראות קבע וחיובי אשראי שמסומנים כמעשרות, ויתרת חוב או זכות",
-    "אנדרואיד ו-Windows: מסך ״חייבים לי״ — מה ששילמת בשביל אחרים (חיובי אשראי, הוצאות, מזומן) ומה הוחזר (ביט, זיכוי, מזומן); מחיוב באשראי: ״צמד ל…״ ← ״מישהו צריך להחזיר לי…״, ובתנועות: שיוך הכנסה להחזר חוב",
-    "אנדרואיד ו-Windows: מסך ״נתוני מס״ — נקודות זיכוי, פנסיה, מדרגות המס, ביטוח לאומי ובריאות, עדכון השיעורים ומקורות רשמיים"
+    "אנדרואיד ו-Windows: תצוגה משותפת ״כולם יחד״ — סימון כמה בני משפחה, והסיכום, התחזית והסרגל מציגים אותם יחד (הנטו של כל אחד, החשבונות של כולם, וכרטיס אשראי שיובא אצל שניים נספר פעם אחת)",
+    "תיקון: באנדרואיד וב-Windows המספרים בתחתית סרגל הצד לא התעדכנו אחרי שינוי בנתונים"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.3.0/maskoret-android.apk",
-      "sha256": "262c25517eede97e289dbeb993e3ec8e1fae47195e8e67234d1d3568ac983a91",
-      "size": 63999495
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.5.0/maskoret-android.apk",
+      "sha256": "c8f1a5c5265aa8cb1c22f837a0d3bf3588f5a44e4dd56b2f209126ed0424c270",
+      "size": 64114507
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.3.0/maskoret-windows.zip",
-      "sha256": "01ae5ef2d73275d42e1ca7c7e408e8c21408353e52fe87fb4b889d4eb688af0e",
-      "size": 14921163
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.5.0/maskoret-windows.zip",
+      "sha256": "f26f07a69684c538cc24242605e4e9b1ab12ebe518c3882105aa6d7822dd1e5d",
+      "size": 14940293
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.3.0/maskoret-windows-setup.exe",
-      "sha256": "e9ed165081236f7d056a30f631a13d334d7e51d7310fed0a6f0d4df196badb4a",
-      "size": 12480928
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.5.0/maskoret-windows-setup.exe",
+      "sha256": "13f6d36f75ccd4377915a5132be596fc61869e7c8afcc0670029a0588aade5fa",
+      "size": 12494111
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret-releases/releases/download/v4.3.0/maskoret-mac.dmg",
-      "sha256": "969b901083e0176d222e4ccda81e02ad932c283ef549808a24b606b76bbfb325",
-      "size": 33901259
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.5.0/maskoret-mac.dmg",
+      "sha256": "c3d8e7f24094f53a8ba0420dc56e6c35ffc25837de628acc8b14c3853fca0209",
+      "size": 33948402
     }
   }
 }
