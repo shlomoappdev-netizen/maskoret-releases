@@ -1,36 +1,33 @@
 {
-  "version": "4.7.0",
-  "build": 41,
+  "version": "4.7.1",
+  "build": 42,
   "date": "2026-11-01",
   "notes": [
-    "חדש: ״נשאר מההכנסה האחרונה״ במקום ״נשאר בסוף החודש״ — מתחיל מחדש ביום המשכורת (מגדירים אותו במסך הכנסות), ומראה מה באמת פנוי להוצאה",
-    "הוצאות קבועות והפקדות לחיסכון יורדות מיד כשההכנסה נכנסת; קניות באשראי נספרות ביום הקנייה, ועל מה שעוד לא יובא מופיעה הערכה לפי ממוצע החודשים הקודמים",
-    "תיקון: הפקדה לחיסכון מורידה עכשיו גם מהעו״ש ביום ההפקדה (קודם החיסכון עלה והעו״ש לא ירד)",
-    "חיסכון במקום אחד: הפקדות חודשיות מוגדרות בחשבון החיסכון, והעברות שהוגדרו כהוצאה קבועה הועברו לשם לבד",
-    "אזהרה כשקנייה בכרטיס נראית כמו הוצאה קבועה שעלולה להיספר פעמיים",
-    "סרגל הניווט מסודר לפי הכנסות, הוצאות, חיסכון ותכנון",
-    "אנדרואיד ו-Windows: מסך ״תובנות AI״ — שיחה על הכסף שלך עם מודל בענן במפתח API אישי, בהעתקה ידנית מאתר צ׳אט או ב-LM Studio, עם תרשימים וטבלאות"
+    "אנדרואיד ו-Windows: בגרפים (תחזית, חודשים, תובנות) הזמן רץ מימין לשמאל כמו במק, והמספרים בציר הסכומים עגולים ולא צפופים",
+    "אנדרואיד ו-Windows: כפתור ״ייבוא מ-Max״ בכרטיס אשראי עבר לראש המסך, ולא מכסה יותר את ״צמד ל…״",
+    "תיקון: בדף של חשבון לא מופיעות יותר שורות של 0 ₪ (קניות באשראי, או הכנסה שנרשמה בחשבון אחר)",
+    "Windows: בהסרת האפליקציה היא שואלת אם למחוק גם את הנתונים וההתחברות מהמחשב (ברירת המחדל: כן); עדכון לא נוגע בהם"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.0/maskoret-android.apk",
-      "sha256": "30edb651cacc0e9498f98a7eb43221958a0f8a65f4d4a429dbc8a4acd5addc2d",
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.1/maskoret-android.apk",
+      "sha256": "5aa17e39e41924755a472fadad1da4f4c4fbed078ff0fcb18c13f4e778656b3b",
       "size": 66147031
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.0/maskoret-windows.zip",
-      "sha256": "261138b9d3a9c5309fc1ea64bfbbac2fe9c02b30f4f23e75c4df61c151b08bb8",
-      "size": 15229425
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.1/maskoret-windows.zip",
+      "sha256": "e8d6f2cd3aca9e2ec759184594a87b124e363ea535169734a30534b7cf30e295",
+      "size": 15231155
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.0/maskoret-windows-setup.exe",
-      "sha256": "55b202ee10e24ffa59d91687d442f2ef06bf50aad61a08ad9786036260950038",
-      "size": 12698051
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.1/maskoret-windows-setup.exe",
+      "sha256": "cdf5c312fbcac9acc2834f3e028c1bd7419fa830c79c0875613478f180dc5bf0",
+      "size": 12700547
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.0/maskoret-mac.dmg",
-      "sha256": "f12d1969aa3fdebd35ad883d95a9338e0d7424959604560cc8e34cc80de3283f",
-      "size": 34016008
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.1/maskoret-mac.dmg",
+      "sha256": "cddd1263267b281d97f6e69a4dd98731c58e0b02db21253f1ee1bb5b7de223d4",
+      "size": 34016276
     }
   }
 }
