@@ -1,31 +1,36 @@
 {
-  "version": "4.6.0",
-  "build": 40,
+  "version": "4.7.0",
+  "build": 41,
   "date": "2026-11-01",
   "notes": [
-    "אנדרואיד ו-Windows: מסך ״מעקב רכישות״ — כמה זמן דברים מחזיקים וכמה הם עולים בחודש, עם הצעות מוכנות, רישום ״קניתי חדש״ והיסטוריית קניות",
-    "אנדרואיד ו-Windows: מסך ״מגמות״ — קיבוץ הוצאות מכרטיס האשראי, מתנועות וממזומן, עם גרף לפי חודש, תקרה חודשית וממוצע"
+    "חדש: ״נשאר מההכנסה האחרונה״ במקום ״נשאר בסוף החודש״ — מתחיל מחדש ביום המשכורת (מגדירים אותו במסך הכנסות), ומראה מה באמת פנוי להוצאה",
+    "הוצאות קבועות והפקדות לחיסכון יורדות מיד כשההכנסה נכנסת; קניות באשראי נספרות ביום הקנייה, ועל מה שעוד לא יובא מופיעה הערכה לפי ממוצע החודשים הקודמים",
+    "תיקון: הפקדה לחיסכון מורידה עכשיו גם מהעו״ש ביום ההפקדה (קודם החיסכון עלה והעו״ש לא ירד)",
+    "חיסכון במקום אחד: הפקדות חודשיות מוגדרות בחשבון החיסכון, והעברות שהוגדרו כהוצאה קבועה הועברו לשם לבד",
+    "אזהרה כשקנייה בכרטיס נראית כמו הוצאה קבועה שעלולה להיספר פעמיים",
+    "סרגל הניווט מסודר לפי הכנסות, הוצאות, חיסכון ותכנון",
+    "אנדרואיד ו-Windows: מסך ״תובנות AI״ — שיחה על הכסף שלך עם מודל בענן במפתח API אישי, בהעתקה ידנית מאתר צ׳אט או ב-LM Studio, עם תרשימים וטבלאות"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.6.0/maskoret-android.apk",
-      "sha256": "c6daaa5462dc754bddbad2ac5d97c16aa64e97725fefba2853319356c0ebdb3c",
-      "size": 64802991
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.0/maskoret-android.apk",
+      "sha256": "30edb651cacc0e9498f98a7eb43221958a0f8a65f4d4a429dbc8a4acd5addc2d",
+      "size": 66147031
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.6.0/maskoret-windows.zip",
-      "sha256": "adf08c09feebbcca2d82c6f78d73bff1940d669294c728703dd6fb196ad88012",
-      "size": 15038473
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.0/maskoret-windows.zip",
+      "sha256": "261138b9d3a9c5309fc1ea64bfbbac2fe9c02b30f4f23e75c4df61c151b08bb8",
+      "size": 15229425
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.6.0/maskoret-windows-setup.exe",
-      "sha256": "80f68c7fba0db25035dfc0228bea52e5d8f7c0ac3d279b752123250c415f81b7",
-      "size": 12564007
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.0/maskoret-windows-setup.exe",
+      "sha256": "55b202ee10e24ffa59d91687d442f2ef06bf50aad61a08ad9786036260950038",
+      "size": 12698051
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.6.0/maskoret-mac.dmg",
-      "sha256": "3114063d400d0c1d89e8061c22369ea7b804097326cd40d2e10f09a2e3bafb16",
-      "size": 33946820
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.7.0/maskoret-mac.dmg",
+      "sha256": "f12d1969aa3fdebd35ad883d95a9338e0d7424959604560cc8e34cc80de3283f",
+      "size": 34016008
     }
   }
 }
