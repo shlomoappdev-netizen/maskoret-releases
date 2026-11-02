@@ -1,39 +1,38 @@
 {
-  "version": "4.14.1",
-  "build": 51,
+  "version": "4.14.2",
+  "build": 52,
   "date": "2026-11-02",
   "notes": [
-    "מק ואייפון: מחיקת חודש שמור מוחקת גם את המשכורת שנרשמה לו בעו״ש (קודם המשכורת נשארה בלי החודש)",
-    "מק ואייפון: בתחתית דף העו״ש מופיעות גם תנועות ישנות שרשמת (לפני היתרה הראשונה בדף), כדי שאפשר יהיה לערוך או למחוק אותן"
+    "אייפון: בכל מקום שהמקלדת עולה מופיע כפתור ״הסתר מקלדת״ מעליה, וגלילה מורידה אותה (גם במקלדת מספרים, שאין בה מקש סיום)"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.14.1/maskoret-android.apk",
-      "sha256": "84e08487d548f21ee4a3fd6b1feb5f64c11aed4fd43f6ef517ede8e8e5725eb3",
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.14.2/maskoret-android.apk",
+      "sha256": "8d6eb2dd685aaddde7d04bda1bf31fb73409c74660fa9864c6e6745674c50833",
       "size": 115954694,
-      "version": "4.14.1",
-      "build": 51
+      "version": "4.14.2",
+      "build": 52
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.14.1/maskoret-windows.zip",
-      "sha256": "d93986e83cf40cc10e9e009670dadc5f03f06aae20422eb9cae55177d14dc5dc",
-      "size": 19051353,
-      "version": "4.14.1",
-      "build": 51
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.14.2/maskoret-windows.zip",
+      "sha256": "9639f45f1da58f61f08c47551afcda56cf2228abc5ad0f4dca820b93c9d3aa76",
+      "size": 19051359,
+      "version": "4.14.2",
+      "build": 52
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.14.1/maskoret-windows-setup.exe",
-      "sha256": "4b5f081372d0271cb26089e343d0185b4f40311be731bc4f0896a7b144bacc85",
-      "size": 15478251,
-      "version": "4.14.1",
-      "build": 51
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.14.2/maskoret-windows-setup.exe",
+      "sha256": "ff9de6597c44bbf1590b741af1707860606898a2eaddc66aebbb68e99bf39aa2",
+      "size": 15478806,
+      "version": "4.14.2",
+      "build": 52
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.14.1/maskoret-mac.dmg",
-      "sha256": "4b6d055c93cb8cf768c2231f2b0efb0164bace3a6e9cc7f88b01f0a9a135c993",
-      "size": 34429144,
-      "version": "4.14.1",
-      "build": 51
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.14.2/maskoret-mac.dmg",
+      "sha256": "59b4a9e7d6bac2fe6edb235bf87badb70b306f7daf1de5deb7f65b5145aa2d94",
+      "size": 34429170,
+      "version": "4.14.2",
+      "build": 52
     }
   }
 }
