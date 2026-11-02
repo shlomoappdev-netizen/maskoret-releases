@@ -1,33 +1,30 @@
 {
-  "version": "4.9.0",
-  "build": 44,
+  "version": "4.9.1",
+  "build": 45,
   "date": "2026-11-02",
   "notes": [
-    "בסיכום שני מספרים זה לצד זה: כמה נשאר בפועל מהמשכורת האחרונה, וכמה צפוי להישאר אחרי חיוב האשראי לפי ממוצע החודשים הקודמים",
-    "עוגת ״לאן הולך הנטו״ מראה את קניות האשראי לפי קטגוריה, עם האחוז של כל אחת (כשעוד לא יובא דף חיוב — לפי החלוקה בחודשים הקודמים)",
-    "תיקון: כל הריבועים בסיכום, בחשבונות וחיסכון ובשאר המסכים באותו גובה",
-    "אנדרואיד ו-Windows: מנהל יכול לשלוח הודעה לכל המשתמשים (תפריט ← הודעות למשתמשים)"
+    "מק: העדכונים מגיעים מהשרת — אותה גרסה חתומה שכולם מקבלים, עם הצעה לעדכן כשהיא יוצאת"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.9.0/maskoret-android.apk",
-      "sha256": "c900d84adc51ba5da0a6c5813060eeae4daf6882087138bd295cc46e05abf814",
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.9.1/maskoret-android.apk",
+      "sha256": "e5f1c14d88cd62c6a20316b17cbbcf581737915a04de4e108196020dc1555c72",
       "size": 66278179
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.9.0/maskoret-windows.zip",
-      "sha256": "b6a58d9a5b330523b5e39a46627c49cce29c6fe8a3a5c6793e896100c6306871",
-      "size": 15254258
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.9.1/maskoret-windows.zip",
+      "sha256": "02fc4e1966cea124fdf4fc26bcad31739fa3f6dd30e0b01907d0fd3ab92ecbb6",
+      "size": 15254254
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.9.0/maskoret-windows-setup.exe",
-      "sha256": "0e3a042c03c9fc1c456a3953c9edeea6ed996448d5df75334ecededcf5c8725a",
-      "size": 12715839
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.9.1/maskoret-windows-setup.exe",
+      "sha256": "6c1bfe8702d912105553815dca31c6875d68944bc78bec98b63b5de47a717718",
+      "size": 12713932
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.9.0/maskoret-mac.dmg",
-      "sha256": "6ee77fc7e6bc7554e2cea84f7b944228a4716eabcb6e5b703bdb2e8b87542216",
-      "size": 34059930
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.9.1/maskoret-mac.dmg",
+      "sha256": "894ca8f78eac928f554af136f0163bfc79a52457756d3a262ac2375e8336faae",
+      "size": 34081213
     }
   }
 }
