@@ -1,41 +1,40 @@
 {
-  "version": "4.15.0",
-  "build": 53,
+  "version": "4.15.1",
+  "build": 54,
   "date": "2026-11-03",
   "notes": [
-    "מק ואייפון: לכל מסך יש עכשיו שם אחד בכל מקום — בתפריט, בלשוניות ובכותרת (למשל ״עו״ש״, ״אשראי״, ״חיסכון״)",
-    "מק ואייפון: בראש כל מסך שורה קצרה שמסבירה מה יש בו ומה עושים בו; אפשר לסגור אותה באיקס, ולהחזיר את כולן ב״תמיכה ודיווח תקלות״",
-    "מק ואייפון: חיפוש מסך — במק ⌘K או ״חיפוש מסך״ בראש התפריט, ובאייפון שדה חיפוש בראש ״עוד״. מקלידים ״משכורת״, ״מקס״ או ״מעשר״ ומגיעים ישר למסך הנכון",
-    "באנדרואיד וב-Windows — בגרסה הבאה"
+    "אנדרואיד ו-Windows: לכל מסך יש עכשיו שם אחד בכל מקום — בתפריט, בלשוניות ובכותרת (״עו״ש״, ״אשראי״, ״חיסכון״, ״הוצאות קבועות״, ״בית״)",
+    "אנדרואיד ו-Windows: בראש כל מסך שורה קצרה שמסבירה מה יש בו ומה עושים בו; אפשר לסגור אותה באיקס, ולהחזיר את כולן ב״תמיכה ודיווח תקלות״",
+    "אנדרואיד ו-Windows: חיפוש מסך — ב-Windows ‏Ctrl+K או ״חיפוש מסך״ בראש התפריט, ובאנדרואיד שדה חיפוש בראש ״עוד״. מקלידים ״משכורת״, ״מקס״ או ״מעשר״ ומגיעים ישר למסך הנכון"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.0/maskoret-android.apk",
-      "sha256": "2b4a471151a65ba38c590b07a57ff15aae4e8eeb0c900b2b0d8b1d0834872821",
-      "size": 115954694,
-      "version": "4.15.0",
-      "build": 53
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.1/maskoret-android.apk",
+      "sha256": "1630c526f65617023dc6a50f93b8f928d35a3cefe07ef85f2bf2914b27238b09",
+      "size": 115987498,
+      "version": "4.15.1",
+      "build": 54
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.0/maskoret-windows.zip",
-      "sha256": "b30b389060eb5cd80411a560d631926d2cb3a51e33d8a0ed14c157aafec30a00",
-      "size": 19051364,
-      "version": "4.15.0",
-      "build": 53
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.1/maskoret-windows.zip",
+      "sha256": "c9f7d524a708676e4528384e226141d15897230213b6891358b4d61d69e2321c",
+      "size": 19059538,
+      "version": "4.15.1",
+      "build": 54
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.0/maskoret-windows-setup.exe",
-      "sha256": "a363cb0de8df0d6775f98b4abca63dfe71581ed0ca629fd8f51caf95b0a94b92",
-      "size": 15480356,
-      "version": "4.15.0",
-      "build": 53
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.1/maskoret-windows-setup.exe",
+      "sha256": "b4d4f7ad4c3edbb64be3bb242e8b874408ba29f84a9c581ee3eac3df47424d65",
+      "size": 15488090,
+      "version": "4.15.1",
+      "build": 54
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.0/maskoret-mac.dmg",
-      "sha256": "5af1c9983ec3123c5631b0b3cb0a4444424adeaada2bcbbd8a80344bf6b9b0a0",
-      "size": 34487172,
-      "version": "4.15.0",
-      "build": 53
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.1/maskoret-mac.dmg",
+      "sha256": "73f8e8374a870a7971e5cb289f91d4def3a2c6207ac71068258060db62c9769e",
+      "size": 34487128,
+      "version": "4.15.1",
+      "build": 54
     }
   }
 }
