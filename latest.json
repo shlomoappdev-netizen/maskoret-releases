@@ -1,39 +1,38 @@
 {
-  "version": "4.15.4",
-  "build": 57,
-  "date": "2026-11-07",
+  "version": "4.15.5",
+  "build": 58,
+  "date": "2026-11-08",
   "notes": [
-    "אנדרואיד: גלילה במסך הבית חלקה — המסך כבר לא קופץ בזמן שגוללים למטה",
-    "אנדרואיד ו-Windows: ליד חיוב במטבע חוץ, יום השער מוצג כ-03.11"
+    "אנדרואיד: בקצה הגלילה המסך כבר לא נמתח ומרצד"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.4/maskoret-android.apk",
-      "sha256": "240eba907ba7dd9abeefe49e303bfe91614a7ab6b6d2ddd180f0858d3f34408f",
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.5/maskoret-android.apk",
+      "sha256": "afe66641b7b7eb39c218671160ad6749a005f8c26f78d362526b91a1dcc19661",
       "size": 116003886,
-      "version": "4.15.4",
-      "build": 57
+      "version": "4.15.5",
+      "build": 58
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.4/maskoret-windows.zip",
-      "sha256": "3ec51b848a135a3e0646a38d1666ce8376e0f55098f454bb1ba3d8369ec335a9",
-      "size": 19068753,
-      "version": "4.15.4",
-      "build": 57
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.5/maskoret-windows.zip",
+      "sha256": "7347c89e604e955cb191a42a0e9d06f4fd7b3ca6d4ca30ab6149fe8d76af8689",
+      "size": 19070127,
+      "version": "4.15.5",
+      "build": 58
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.4/maskoret-windows-setup.exe",
-      "sha256": "2307e3b1d4709b141c03f01e531265f83f5d7cea6656ab6d6fa7795fcef9e559",
-      "size": 15493750,
-      "version": "4.15.4",
-      "build": 57
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.5/maskoret-windows-setup.exe",
+      "sha256": "cb3ba580c591b0bce99b3f538c767e6ed7b33374c315826f9130842228cef3da",
+      "size": 15495734,
+      "version": "4.15.5",
+      "build": 58
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.4/maskoret-mac.dmg",
-      "sha256": "78dbed4b129c028301848e193853a19478389eb4a6655f9306fd71cb3dc3485f",
-      "size": 34538398,
-      "version": "4.15.4",
-      "build": 57
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.5/maskoret-mac.dmg",
+      "sha256": "de2db68e47482567dba835317f79e41cfeb89aa9610161a1d2946a056827f29f",
+      "size": 34538382,
+      "version": "4.15.5",
+      "build": 58
     }
   }
 }
