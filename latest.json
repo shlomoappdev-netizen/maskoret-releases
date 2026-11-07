@@ -1,40 +1,39 @@
 {
-  "version": "4.15.3",
-  "build": 56,
-  "date": "2026-11-04",
+  "version": "4.15.4",
+  "build": 57,
+  "date": "2026-11-07",
   "notes": [
-    "מק ואייפון: חיוב במטבע חוץ מומר לשקלים לפי השער היציג של יום העסקה (ולא לפי השער של היום). האפליקציה שומרת את השער של כל יום שבו היא נפתחת; לעסקה מיום שאין לו שער שמור נלקח השער האחרון שלפניו. ליד הסכום כתוב מאיזה יום השער",
-    "אנדרואיד ו-Windows: חיוב אשראי במטבע חוץ (למשל $10) שעוד לא קיבל סכום בשקלים — כמו עסקה ״ממתין לקליטה״ או חיוב בדולרים — נספר עכשיו בשקלים לפי השער היציג של בנק ישראל (מסומן ב-≈ עם השער), ולא כאילו היה בשקלים. כשהחיוב האמיתי בשקלים מגיע בפירוט הבא, הוא מחליף את ההערכה",
-    "אנדרואיד ו-Windows: ההמרה לפי השער של יום העסקה (או האחרון שלפניו שנשמר), וליד הסכום כתוב מאיזה יום השער"
+    "אנדרואיד: גלילה במסך הבית חלקה — המסך כבר לא קופץ בזמן שגוללים למטה",
+    "אנדרואיד ו-Windows: ליד חיוב במטבע חוץ, יום השער מוצג כ-03.11"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.3/maskoret-android.apk",
-      "sha256": "86ad2677a057ca79f62253ce0cda05e291d67c35b76a3c0f0a142c072b7ff3df",
-      "size": 116003882,
-      "version": "4.15.3",
-      "build": 56
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.4/maskoret-android.apk",
+      "sha256": "240eba907ba7dd9abeefe49e303bfe91614a7ab6b6d2ddd180f0858d3f34408f",
+      "size": 116003886,
+      "version": "4.15.4",
+      "build": 57
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.3/maskoret-windows.zip",
-      "sha256": "615411bec68d781dae4fc35376ae5f9a33991afc4d087025d583e82e6e1433c4",
-      "size": 19069538,
-      "version": "4.15.3",
-      "build": 56
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.4/maskoret-windows.zip",
+      "sha256": "3ec51b848a135a3e0646a38d1666ce8376e0f55098f454bb1ba3d8369ec335a9",
+      "size": 19068753,
+      "version": "4.15.4",
+      "build": 57
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.3/maskoret-windows-setup.exe",
-      "sha256": "b3bbb4a130f8230eab71d8c9116d60c8f8c1141ba205ac6d335892df2f3b0331",
-      "size": 15494647,
-      "version": "4.15.3",
-      "build": 56
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.4/maskoret-windows-setup.exe",
+      "sha256": "2307e3b1d4709b141c03f01e531265f83f5d7cea6656ab6d6fa7795fcef9e559",
+      "size": 15493750,
+      "version": "4.15.4",
+      "build": 57
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.3/maskoret-mac.dmg",
-      "sha256": "2b91df901cdd6a05180d8f3cc4b75b572e120d2173ce359d20cbbe917f003527",
-      "size": 34538409,
-      "version": "4.15.3",
-      "build": 56
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.15.4/maskoret-mac.dmg",
+      "sha256": "78dbed4b129c028301848e193853a19478389eb4a6655f9306fd71cb3dc3485f",
+      "size": 34538398,
+      "version": "4.15.4",
+      "build": 57
     }
   }
 }
