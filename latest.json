@@ -3,18 +3,15 @@
   "build": 60,
   "date": "2026-11-08",
   "notes": [
-    "במסך הבית, ״לאן הולך הנטו״ מוצג כפס ארוך במקום עוגה. לחיצה על צבע (או על שורה במקרא) מראה למה הוא שייך, כמה זה ובאיזה אחוז",
-    "הכרטיסים במסך הבית מסודרים אחד מתחת לשני",
-    "מתג חדש במסך הבית, ״כולל הערכת הוצאות באשראי״. כשמכבים אותו רואים רק את מה שירד בפועל, בלי ההערכה לפי ממוצע החודשים הקודמים",
-    "ניהול משתמשים (מק ואייפון): במנויים רואים איזו גרסה מותקנת אצלם ובאיזה מכשיר. ״כניסה אחרונה״ הפך ל״פעילות אחרונה״ ומראה מתי השתמשו באפליקציה בפועל, ולא את תאריך ההרשמה"
+    "מק: כששרת ההורדות לא עונה, העדכון מנסה שוב לבד, ואם זה לא עובד מוצגת הודעה ברורה (במקום ״הקובץ שהורד לא תואם״)"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.0/maskoret-android.apk",
-      "sha256": "ba7c9b46b45df198a6b80d62235c140c3261e8053bb95ef73d3d81284d7f4e04",
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.1/maskoret-android.apk",
+      "sha256": "5f8e8295eaed1f6f89c59e61582762c4f615b67b223811b4b54555c4caea64ad",
       "size": 116151494,
-      "version": "4.17.0",
-      "build": 60
+      "version": "4.17.1",
+      "build": 61
     },
     "windows": {
       "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.0/maskoret-windows.zip",
@@ -31,11 +28,11 @@
       "build": 60
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.0/maskoret-mac.dmg",
-      "sha256": "c81fc8838bdeb756f0363e8decd4ffed4af7a71ede364a0ff926b3a917c05527",
-      "size": 34614760,
-      "version": "4.17.0",
-      "build": 60
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.1/maskoret-mac.dmg",
+      "sha256": "7d69c8fe3551294bf8abe6d3b3a4754590e36e009efe182c2baeaec901ad5695",
+      "size": 34620425,
+      "version": "4.17.1",
+      "build": 61
     }
   }
 }
