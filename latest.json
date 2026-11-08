@@ -1,38 +1,39 @@
 {
-  "version": "4.17.0",
-  "build": 60,
+  "version": "4.17.2",
+  "build": 62,
   "date": "2026-11-08",
   "notes": [
-    "מק: כששרת ההורדות לא עונה, העדכון מנסה שוב לבד, ואם זה לא עובד מוצגת הודעה ברורה (במקום ״הקובץ שהורד לא תואם״)"
+    "כשמסתירים את הערכת האשראי, הכרטיס הירוק במסך הבית מסודר מחדש. המספר ״נשאר בפועל״ מופיע ליד הנטו, ההוצאות והחיסכון, בלי שטח ריק",
+    "המתג הוחלף בכפתור ברור, ״הסתר הערכת אשראי״ / ״הצג הערכת אשראי״. כשההערכה מוסתרת, גם בסרגל הצד לא מוצג ״צפוי להישאר״"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.1/maskoret-android.apk",
-      "sha256": "5f8e8295eaed1f6f89c59e61582762c4f615b67b223811b4b54555c4caea64ad",
-      "size": 116151494,
-      "version": "4.17.1",
-      "build": 61
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.2/maskoret-android.apk",
+      "sha256": "a6209c7d3ab669cc63de50f73be1a0c0989f8c0e79d4a9a3a482e7d7a3fa4b39",
+      "size": 116151654,
+      "version": "4.17.2",
+      "build": 62
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.0/maskoret-windows.zip",
-      "sha256": "f033f2d3f86ef04dc1834fda499ef4f35578325456316dcd43a7a2bc85fe0fd8",
-      "size": 19085611,
-      "version": "4.17.0",
-      "build": 60
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.2/maskoret-windows.zip",
+      "sha256": "be2ec21d6ef72dc55e7b59f4766c4e73b895331e9e95524e0f485da7bf66eab4",
+      "size": 19086463,
+      "version": "4.17.2",
+      "build": 62
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.0/maskoret-windows-setup.exe",
-      "sha256": "928df327b4edc9384b893bb35a1e38f12bbb37c99c7274b850842526875c34dd",
-      "size": 15503412,
-      "version": "4.17.0",
-      "build": 60
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.2/maskoret-windows-setup.exe",
+      "sha256": "f34e8f14e86f076d166dda5669e6ab307714cc369396f982692bdc0664970f0b",
+      "size": 15504029,
+      "version": "4.17.2",
+      "build": 62
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.1/maskoret-mac.dmg",
-      "sha256": "7d69c8fe3551294bf8abe6d3b3a4754590e36e009efe182c2baeaec901ad5695",
-      "size": 34620425,
-      "version": "4.17.1",
-      "build": 61
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.2/maskoret-mac.dmg",
+      "sha256": "c91e96d01d1ceb429b11735049225459caae15ff95c3d2ac17eeb1dec01c1c83",
+      "size": 35414904,
+      "version": "4.17.2",
+      "build": 62
     }
   }
 }
