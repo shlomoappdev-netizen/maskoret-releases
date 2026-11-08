@@ -3,16 +3,15 @@
   "build": 62,
   "date": "2026-11-08",
   "notes": [
-    "כשמסתירים את הערכת האשראי, הכרטיס הירוק במסך הבית מסודר מחדש. המספר ״נשאר בפועל״ מופיע ליד הנטו, ההוצאות והחיסכון, בלי שטח ריק",
-    "המתג הוחלף בכפתור ברור, ״הסתר הערכת אשראי״ / ״הצג הערכת אשראי״. כשההערכה מוסתרת, גם בסרגל הצד לא מוצג ״צפוי להישאר״"
+    "עדכונים: כשקישור ההורדה של GitHub לא עונה (כמו היום, שגיאה 504), העדכון מוריד את הקובץ דרך שרת אחר של GitHub, ולא נכשל. ההגנה הזו תעבוד מהעדכון שאחרי הגרסה הזו"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.2/maskoret-android.apk",
-      "sha256": "a6209c7d3ab669cc63de50f73be1a0c0989f8c0e79d4a9a3a482e7d7a3fa4b39",
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.3/maskoret-android.apk",
+      "sha256": "dfc04f1c5759186d097825793b3984c2fa8f2808d27b0705e6396d0b5acbfbb1",
       "size": 116151654,
-      "version": "4.17.2",
-      "build": 62
+      "version": "4.17.3",
+      "build": 63
     },
     "windows": {
       "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.2/maskoret-windows.zip",
@@ -29,11 +28,11 @@
       "build": 62
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.2/maskoret-mac.dmg",
-      "sha256": "c91e96d01d1ceb429b11735049225459caae15ff95c3d2ac17eeb1dec01c1c83",
-      "size": 35414904,
-      "version": "4.17.2",
-      "build": 62
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.3/maskoret-mac.dmg",
+      "sha256": "43143e5339b2af5329492f525e667d04c7e5987574aec241a343a093f84ea1fe",
+      "size": 34670098,
+      "version": "4.17.3",
+      "build": 63
     }
   }
 }
