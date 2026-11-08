@@ -1,6 +1,6 @@
 {
-  "version": "4.17.2",
-  "build": 62,
+  "version": "4.17.3",
+  "build": 63,
   "date": "2026-11-08",
   "notes": [
     "עדכונים: כשקישור ההורדה של GitHub לא עונה (כמו היום, שגיאה 504), העדכון מוריד את הקובץ דרך שרת אחר של GitHub, ולא נכשל. ההגנה הזו תעבוד מהעדכון שאחרי הגרסה הזו"
@@ -14,18 +14,18 @@
       "build": 63
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.2/maskoret-windows.zip",
-      "sha256": "be2ec21d6ef72dc55e7b59f4766c4e73b895331e9e95524e0f485da7bf66eab4",
-      "size": 19086463,
-      "version": "4.17.2",
-      "build": 62
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.3/maskoret-windows.zip",
+      "sha256": "45dc9eed706dff13ba12b219ff9523f54b4d52c84585f4466c588cf1d3463451",
+      "size": 19086877,
+      "version": "4.17.3",
+      "build": 63
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.2/maskoret-windows-setup.exe",
-      "sha256": "f34e8f14e86f076d166dda5669e6ab307714cc369396f982692bdc0664970f0b",
-      "size": 15504029,
-      "version": "4.17.2",
-      "build": 62
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.3/maskoret-windows-setup.exe",
+      "sha256": "6e0a286b4b6d0b534ca5f4216bf3ae0ba14997a84bd679f02ed8f3285543bf62",
+      "size": 15504919,
+      "version": "4.17.3",
+      "build": 63
     },
     "mac": {
       "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.17.3/maskoret-mac.dmg",
