@@ -1,39 +1,43 @@
 {
-  "version": "4.20.0",
-  "build": 67,
+  "version": "4.21.0",
+  "build": 68,
   "date": "2026-11-09",
   "notes": [
-    "מגמות, ״סך התקרות״: בפסים של ההכנסה האחרונה והממוצע רשום עכשיו מתוך איזה סכום הפס מתמלא (התקרות X מתוך ההכנסה)",
-    "תובנות AI: הוסרו המודלים המקומיים (המודל המובנה במק ו-LM Studio). נשארו מודל בענן עם מפתח API ומצב ידני, והאפליקציה במק קטנה ונבנית מהר יותר"
+    "תובנות AI בעיצוב חדש של צ׳אט: מסך פתיחה עם פעולות מהירות, תשובות נקיות בלי ״החשיבה״ של המודל, תרשימים צבעוניים, וכפתור העתקה לכל תשובה",
+    "ה-AI יכול לבצע שינויים באפליקציה באישור שלך: לעדכן או להוסיף חיסכון מצילום מסך, להמליץ ולקבוע תקרות למגמות, ולתכנן רכישה גדולה (הוצאה מתוכננת, העברה מחיסכון). כל שינוי מוצג לאישור, ואפשר לבטל אותו",
+    "אפשר לצרף לשאלה צילום מסך או תמונה",
+    "הלחיצה על ״תובנות על החודש״ ושאר הפעולות המהירות כבר לא מציגה את הפרומפט הארוך בשיחה",
+    "מפתח ה-API נשמר בחשבון (מוצפן) וזמין בכל המכשירים שלך, והשיחה עם ה-AI מסתנכרנת בין המכשירים",
+    "״בדוק חיבור״ בהגדרות ה-AI בודק עכשיו באמת את המפתח והמודל מול הספק"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.20.0/maskoret-android.apk",
-      "sha256": "b8ff92fb53606c839b008ffa2c869e4aaad2cad8b419fe371c31bd198e5ca205",
-      "size": 116168130,
-      "version": "4.20.0",
-      "build": 67
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.0/maskoret-android.apk",
+      "sha256": "f5ef0185f049ee2e298c37fb013184ad2a999185e35a092be935b4d0962b355f",
+      "size": 116594706,
+      "version": "4.21.0",
+      "build": 68
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.20.0/maskoret-windows.zip",
-      "sha256": "30dc34751750a17d2b6d79934cb03edcbf4f6bb39f686ff526cf2774b04edbbf",
-      "size": 19089025,
-      "version": "4.20.0",
-      "build": 67
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.0/maskoret-windows.zip",
+      "sha256": "2fadabc3917d40ae671323522204e28a790f0d9e04843e0e003709cae95e43c8",
+      "size": 19165328,
+      "version": "4.21.0",
+      "build": 68
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.20.0/maskoret-windows-setup.exe",
-      "sha256": "64e3857e6178a2eb44f43aef78f3c4ffa532a11a57d6592f5eaf6797dd9adfe2",
-      "size": 15506093,
-      "version": "4.20.0",
-      "build": 67
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.0/maskoret-windows-setup.exe",
+      "sha256": "3c5895b90c4e39daf3d5a9939a54df98ca4518edee249ae142178dec8d260cc7",
+      "size": 15560236,
+      "version": "4.21.0",
+      "build": 68
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.20.0/maskoret-mac.dmg",
-      "sha256": "b4d25afb793af6200242224edf44aca3ae8b976d3124706185627d3a673bfb4d",
-      "size": 12119810,
-      "version": "4.20.0",
-      "build": 67
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.0/maskoret-mac.dmg",
+      "sha256": "be439b78b126d4b2a8cc565e890dec4dc095dc66a593e8f50fc4f84ef635bf86",
+      "size": 12584980,
+      "version": "4.21.0",
+      "build": 68
     }
   }
 }
