@@ -1,38 +1,39 @@
 {
-  "version": "4.21.1",
-  "build": 69,
+  "version": "4.21.2",
+  "build": 70,
   "date": "2026-11-09",
   "notes": [
-    "״בדוק חיבור״ מזהה נכון מודל של Gemini גם כשהשם שלו נשמר עם הקידומת models/"
+    "התחברות מחדש לחשבון (למשל אחרי החלפת סיסמה) כבר לא שואלת אם לקחת את הנתונים מהמכשיר או מהשרת: השרת הוא המקור, והנתונים שהיו במכשיר נשמרים בגרסאות של משק הבית. שינויים שנעשו בלי אינטרנט עדיין עולים לשרת כשהחיבור חוזר",
+    "תובנות AI: שדה הכתיבה מסודר מחדש — כפתור צירוף וכפתור שליחה עגולים באותו גובה, ומסגרת שנצבעת כשכותבים"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.1/maskoret-android.apk",
-      "sha256": "b634efda129c982d977526529546e112f01b8e29071396496ce03c0c00ce11ff",
-      "size": 116594702,
-      "version": "4.21.1",
-      "build": 69
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.2/maskoret-android.apk",
+      "sha256": "325963e3f3b260e2c46343de2d393f5672ca9b607e94e241e80470e73d6d35c5",
+      "size": 116594698,
+      "version": "4.21.2",
+      "build": 70
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.1/maskoret-windows.zip",
-      "sha256": "bba122e8707fa874b8c971459d9e91e79ff51d2686c4719092a370d98a657902",
-      "size": 19165311,
-      "version": "4.21.1",
-      "build": 69
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.2/maskoret-windows.zip",
+      "sha256": "aa48c69e40ee30a18cfdf44d034a673cc2dc2c9605a115504da8eaa875789d93",
+      "size": 19163121,
+      "version": "4.21.2",
+      "build": 70
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.1/maskoret-windows-setup.exe",
-      "sha256": "a612dcf12c7429ec14cbb994390eea5d1584f55737f5dfe473a2d0b52595e273",
-      "size": 15557397,
-      "version": "4.21.1",
-      "build": 69
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.2/maskoret-windows-setup.exe",
+      "sha256": "bce2ccc2c97cabb6fbe9da8e23ed0b97666f036b3ebc72c051e8fa79792a4814",
+      "size": 15561302,
+      "version": "4.21.2",
+      "build": 70
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.1/maskoret-mac.dmg",
-      "sha256": "0bcc002dc7cd4ae98be1335d6a70a5ef99d867fc3f9eaa5320fe5b2f2a38494d",
-      "size": 12585053,
-      "version": "4.21.1",
-      "build": 69
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.2/maskoret-mac.dmg",
+      "sha256": "b315752bb5f50d99015e7503c775eb66cecdc776260f756023367876f17ac01c",
+      "size": 12589782,
+      "version": "4.21.2",
+      "build": 70
     }
   }
 }
