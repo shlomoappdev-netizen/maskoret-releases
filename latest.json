@@ -1,39 +1,42 @@
 {
-  "version": "4.21.2",
-  "build": 70,
+  "version": "4.22.0",
+  "build": 71,
   "date": "2026-11-09",
   "notes": [
-    "התחברות מחדש לחשבון (למשל אחרי החלפת סיסמה) כבר לא שואלת אם לקחת את הנתונים מהמכשיר או מהשרת: השרת הוא המקור, והנתונים שהיו במכשיר נשמרים בגרסאות של משק הבית. שינויים שנעשו בלי אינטרנט עדיין עולים לשרת כשהחיבור חוזר",
-    "תובנות AI: שדה הכתיבה מסודר מחדש — כפתור צירוף וכפתור שליחה עגולים באותו גובה, ומסגרת שנצבעת כשכותבים"
+    "השיחה עם ה-AI מסתנכרנת באמת בין כל המכשירים: השרת ממזג את ההודעות של כל מכשיר במקום שמכשיר אחד ידרוס את השיחה של האחר, ומה שנכתב במכשיר אחר מופיע תוך חצי דקה",
+    "ניתוח והתראה אחרי ייבוא פירוט אשראי (מק, אנדרואיד ו-Windows): ה-AI מנתח את המצב לבד ושולח בהתראה את עיקר הדברים, והניתוח המלא מחכה בתובנות AI. אפשר לכבות בהגדרות ה-AI",
+    "תובנות AI: אפשר לערוך כל שינוי שה-AI מציע לפני שמאשרים אותו (סכום, שם, תאריך, תקרה…), ובשיחה נשמר מה שבוצע בפועל",
+    "״עו״ש״, אשראי, הוצאות, הכנסות, מגמות, מעשרות וחייבים לי: הכותרת ושורת ההוספה המהירה נגללות עם הרשימה, כך שבטלפון כל המסך מציג את הנתונים",
+    "אנדרואיד ו-Windows: האריחים הקטנים (בחודשים, בסיכום ובמסכים נוספים) ממלאים את כל רוחב השורה, בלי חלל ריק בצד"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.2/maskoret-android.apk",
-      "sha256": "325963e3f3b260e2c46343de2d393f5672ca9b607e94e241e80470e73d6d35c5",
-      "size": 116594698,
-      "version": "4.21.2",
-      "build": 70
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.0/maskoret-android.apk",
+      "sha256": "9708486068cf94c74d4d8b3feb3be260eff52fa2b1e37984cdf16ac4c5de46ff",
+      "size": 116904895,
+      "version": "4.22.0",
+      "build": 71
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.2/maskoret-windows.zip",
-      "sha256": "aa48c69e40ee30a18cfdf44d034a673cc2dc2c9605a115504da8eaa875789d93",
-      "size": 19163121,
-      "version": "4.21.2",
-      "build": 70
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.0/maskoret-windows.zip",
+      "sha256": "777173c8dba1621eca13c8f1386551c9a3d086a273fc1b05f8a0e6479c4def94",
+      "size": 19239601,
+      "version": "4.22.0",
+      "build": 71
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.2/maskoret-windows-setup.exe",
-      "sha256": "bce2ccc2c97cabb6fbe9da8e23ed0b97666f036b3ebc72c051e8fa79792a4814",
-      "size": 15561302,
-      "version": "4.21.2",
-      "build": 70
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.0/maskoret-windows-setup.exe",
+      "sha256": "175963eb7a83964aa037b5f9eeec26319a197001566ba0110cc3ae9168331be6",
+      "size": 15605817,
+      "version": "4.22.0",
+      "build": 71
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.21.2/maskoret-mac.dmg",
-      "sha256": "b315752bb5f50d99015e7503c775eb66cecdc776260f756023367876f17ac01c",
-      "size": 12589782,
-      "version": "4.21.2",
-      "build": 70
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.0/maskoret-mac.dmg",
+      "sha256": "ae96d1ef29cfeeab2116e1083a5f61e52bdd0dc669e9a22c1061fd3ffc90b588",
+      "size": 12692322,
+      "version": "4.22.0",
+      "build": 71
     }
   }
 }
