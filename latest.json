@@ -1,40 +1,41 @@
 {
-  "version": "4.18.0",
-  "build": 65,
-  "date": "2026-11-08",
+  "version": "4.19.0",
+  "build": 66,
+  "date": "2026-11-09",
   "notes": [
-    "הוצאות קבועות: אפשר לסמן חיוב כ״חיוב משותף״, עם מי ומה החלק שלו בחודש (למשל מנוי שמתחלקים בו עם חבר)",
-    "עו״ש: הכנסה (למשל העברה בביט) אפשר לסמן כ״השתתפות בחיוב משותף״. הסכום יורד מההוצאה הקבועה בחודש שבו הגיע, ולא נספר כהכנסה (גם לא במעשרות)",
-    "ליד חיוב משותף רואים כמה השתתפו בו החודש, ואם עוד לא הגיע"
+    "הוצאה קבועה שמקושרת לחיוב באשראי: בעריכה מופיע יום החיוב של הכרטיס (לפי קובץ האשראי) במקום בורר יום ידני, כי היא יורדת מהעו״ש עם חיוב הכרטיס",
+    "למנהל: במשימות הפיתוח אפשר לכתוב ל-Claude ישירות מתוך המשימה, לשאול אם היא עדיין נחוצה, לבקש תוכנית תיקון או לבקש לסגור אותה",
+    "למנהל: בפניות ובמשימות רואים איפה סוכן התמיכה רץ, ואם הוא הפסיק לעבוד מופיע באדום ״הסוכן לא פעיל מאז…״",
+    "במק: התקנת עדכון כבר לא מבקשת את סיסמת המחשב (מהעדכון שאחרי הגרסה הזו). הגרסה הקודמת מעבירה לגרסה החדשה את פרטי ההתחברות והמפתחות השמורים"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.18.0/maskoret-android.apk",
-      "sha256": "75b8c1fe005c336c907a9be01ccff21506110e4776b090492f2a485c3b2f485c",
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.19.0/maskoret-android.apk",
+      "sha256": "c847ac32e92c96990a2afc1ac2108750c0534058557e1e7c46f7529ed4da2d08",
       "size": 116168126,
-      "version": "4.18.0",
-      "build": 65
+      "version": "4.19.0",
+      "build": 66
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.18.0/maskoret-windows.zip",
-      "sha256": "0fa29d7a708e04ea11aa8d05758556c5730bbe4a54a6ef1651ba4403064e7a31",
-      "size": 19094059,
-      "version": "4.18.0",
-      "build": 65
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.19.0/maskoret-windows.zip",
+      "sha256": "97e9cb83466e935fc8cab6511e2f223734f01388c85efc00acada1e7a57b350f",
+      "size": 19094836,
+      "version": "4.19.0",
+      "build": 66
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.18.0/maskoret-windows-setup.exe",
-      "sha256": "daebfeffec1b857b216f272eb05ce845b562f0e572b1b74f095bdf2919b4898f",
-      "size": 15513149,
-      "version": "4.18.0",
-      "build": 65
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.19.0/maskoret-windows-setup.exe",
+      "sha256": "9dcf68d4fe3912689d1248d0e9d50b8ff615eec80ac11c393979b3d3d57c61ad",
+      "size": 15511035,
+      "version": "4.19.0",
+      "build": 66
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.18.0/maskoret-mac.dmg",
-      "sha256": "e257ed38a5679e0a2c7e3f1ad99795a39a9bc694089d826e69f2d9a561d32eab",
-      "size": 34709175,
-      "version": "4.18.0",
-      "build": 65
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.19.0/maskoret-mac.dmg",
+      "sha256": "08f8f2c742a845c5836792e2008cd40f43f2f36b765ef863bfff44cb80d683ce",
+      "size": 34851382,
+      "version": "4.19.0",
+      "build": 66
     }
   }
 }
