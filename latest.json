@@ -1,40 +1,38 @@
 {
-  "version": "4.22.1",
-  "build": 72,
+  "version": "4.22.2",
+  "build": 73,
   "date": "2026-11-09",
   "notes": [
-    "מעקב רכישות במק: הרקע הבהיר המוזר ברשימת הפריטים תוקן",
-    "מעקב רכישות: רואים בבירור פריט שלא נכלל ביתרה החודשית (ולכן לא נספר ב״עולה לך בממוצע בחודש״), ואפשר לכלול אותו במתג אחד בדף הפריט",
-    "עו״ש: חלק ״מתוכנן״ בראש הדף מציג כל קנייה ותנועה עתידית — גם כאלה שה-AI הוסיף וגם כאלה באשראי — ולחיצה פותחת אותן לעריכה"
+    "מעקב רכישות: הוסר הסימון ״לא נכלל ביתרה״ והמתג שנוסף בדף הפריט בגרסה הקודמת — הכול חזר כמו שהיה (ההגדרה ״כלול ביתרה החודשית״ נשארת בעריכת הפריט)"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.1/maskoret-android.apk",
-      "sha256": "7fc0c1250bfb5e5d67463955cceccfc942f8dedf99e409b4d2f08e64a217eca4",
-      "size": 116921279,
-      "version": "4.22.1",
-      "build": 72
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.2/maskoret-android.apk",
+      "sha256": "d6bb7b938c211b369d73c251f9c6a1c4430de41617083786a25c825306537195",
+      "size": 116904891,
+      "version": "4.22.2",
+      "build": 73
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.1/maskoret-windows.zip",
-      "sha256": "4b08955169a94a54848ca7ccc9d6cc23d9ae1df591c19ccf94f2d33cb2407ea4",
-      "size": 19241349,
-      "version": "4.22.1",
-      "build": 72
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.2/maskoret-windows.zip",
+      "sha256": "71c5ec7c3a232c4fd3f48271da62c1bd8edea25c39c59f7d3e058b3e59c94c5c",
+      "size": 19239603,
+      "version": "4.22.2",
+      "build": 73
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.1/maskoret-windows-setup.exe",
-      "sha256": "6000eae30bda0b13222869db5dcbb2d30135613a3a0ec83a98693fff1b9fcbfd",
-      "size": 15608587,
-      "version": "4.22.1",
-      "build": 72
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.2/maskoret-windows-setup.exe",
+      "sha256": "84a54601a13868f1651740cb0b3e1f7d287e9782975dd736d81996db921acf2e",
+      "size": 15607849,
+      "version": "4.22.2",
+      "build": 73
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.1/maskoret-mac.dmg",
-      "sha256": "b8a4c3cf6f9fda19711f6aa34be39bfbe43aa7c277ddffbbcf2cd9964bc8f147",
-      "size": 12724259,
-      "version": "4.22.1",
-      "build": 72
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.22.2/maskoret-mac.dmg",
+      "sha256": "5cb4aa0d70cae39a673dadbd54df670cc2485e79c94d57ce551c762d4a374464",
+      "size": 12699299,
+      "version": "4.22.2",
+      "build": 73
     }
   }
 }
