@@ -659,10 +659,10 @@
       <p class="sec-lead">בוחרים את המכשיר, מתקינים ונרשמים. מכאן והלאה האפליקציה מודיעה לבד כשיש גרסה חדשה.</p>
     </div>
     <div class="dl-grid">
-      <a class="dl reveal" data-os="android" href="https://github.com/shlomoappdev-netizen/maskoret/releases/latest/download/maskoret-android.apk">
+      <a class="dl reveal" data-os="android" href="#beta">
         <span class="os"><svg viewBox="0 0 24 24" fill="#7ee08a"><path d="M17.5 15.3a1 1 0 1 1 0-2 1 1 0 0 1 0 2m-11 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2m11.4-6 2-3.4a.4.4 0 0 0-.7-.4l-2 3.5a12.4 12.4 0 0 0-10.4 0l-2-3.5a.4.4 0 0 0-.7.4l2 3.4A11.8 11.8 0 0 0 0 18.8h24a11.8 11.8 0 0 0-6.1-9.5"/></svg></span>
-        <strong>Android</strong><span class="meta" data-size="android">קובץ APK</span>
-        <span class="go">להורדה <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12m0 0-5-5m5 5 5-5"/></svg></span>
+        <strong>Android</strong><span class="meta">Google Play · בטא</span>
+        <span class="go">להצטרפות <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12m0 0-5-5m5 5 5-5"/></svg></span>
       </a>
       <a class="dl reveal" data-os="windows" href="https://github.com/shlomoappdev-netizen/maskoret/releases/latest/download/maskoret-windows-setup.exe">
         <span class="os"><svg viewBox="0 0 24 24" fill="#5fb6ff"><path d="M0 3.4 9.8 2v9.4H0zm11-1.6L24 0v11.3H11zM0 12.6h9.8V22L0 20.6zm11 0h13V24l-13-1.8z"/></svg></span>
@@ -682,9 +682,39 @@
     </div>
     <p class="version-line center reveal" id="versionLine"></p>
     <div class="install-tips reveal">
-      <div><b>Android</b>בפעם הראשונה צריך לאשר "התקנה ממקורות לא ידועים".</div>
+      <div><b>Android</b>דרך Google Play: נרשמים לבטא (שלושה צעדים למטה) ומתקינים מהחנות.</div>
       <div><b>Windows</b>מפעילים את תוכנת ההתקנה ולוחצים "הבא". אם מופיעה אזהרה: "מידע נוסף" ← "הפעל בכל זאת".</div>
       <div><b>Mac</b>גוררים ל-Applications. אם מופיעה אזהרה: הגדרות המערכת ← פרטיות ואבטחה ← "פתח בכל זאת".</div>
+    </div>
+  </div>
+</section>
+
+<section id="beta" style="padding-top:40px">
+  <div class="wrap">
+    <div class="center reveal">
+      <div class="eyebrow">Android · Google Play</div>
+      <h2>מצטרפים לבטא ב-Google Play</h2>
+      <p class="sec-lead">באנדרואיד מתקינים ומתעדכנים דרך Google Play. בזמן הבטא צריך להירשם פעם אחת — שלושה צעדים, דקה בסך הכול. כדאי לעשות את זה מהטלפון, מחוברים לאותו חשבון Google שבחנות.</p>
+    </div>
+    <div class="dl-grid">
+      <a class="dl reveal" href="https://groups.google.com/g/maskoret-beta" target="_blank" rel="noopener">
+        <span class="os" style="font-size:22px;font-weight:800">1</span>
+        <strong>הצטרפות לקבוצת הבודקים</strong><span class="meta">לוחצים "הצטרפות לקבוצה" (Join group)</span>
+        <span class="go">לקבוצה</span>
+      </a>
+      <a class="dl reveal" href="https://play.google.com/apps/testing/com.shlomodavid.maskoret" target="_blank" rel="noopener">
+        <span class="os" style="font-size:22px;font-weight:800">2</span>
+        <strong>אישור ההשתתפות בבטא</strong><span class="meta">לוחצים "להיות בודק" (Become a tester). אם הדף לא נפתח — חכו כמה דקות אחרי הצעד הראשון ונסו שוב</span>
+        <span class="go">לאישור</span>
+      </a>
+      <a class="dl reveal" href="https://play.google.com/store/apps/details?id=com.shlomodavid.maskoret" target="_blank" rel="noopener">
+        <span class="os" style="font-size:22px;font-weight:800">3</span>
+        <strong>התקנה מ-Google Play</strong><span class="meta">אם החנות כותבת שהאפליקציה לא נמצאה — מחכים כמה דקות ומנסים שוב</span>
+        <span class="go">לחנות</span>
+      </a>
+    </div>
+    <div class="install-tips reveal">
+      <div><b>כבר מותקן מהאתר?</b>מתקינים מ-Google Play מעל האפליקציה הקיימת, בלי להסיר אותה. הנתונים שמורים בשרת ונשארים.</div>
     </div>
   </div>
 </section>
@@ -851,7 +881,8 @@
       if (label) label.textContent = 'תוכנת התקנה';
     }
     const hero = $('#heroDownload');
-    for (const k of ['android', 'windows', 'mac']) {
+    // Android comes from Google Play (#beta), not from latest.json.
+    for (const k of ['windows', 'mac']) {
       const p = m.platforms && m.platforms[k];
       if (!p || !p.url) continue;
       document.querySelectorAll(`a[data-os="${k}"]`).forEach(a => {
@@ -859,7 +890,7 @@
         a.href = p.url;
       });
     }
-    for (const k of ['android', 'windows', 'mac']) {
+    for (const k of ['windows', 'mac']) {
       const p = m.platforms && m.platforms[k], el = $(`[data-size="${k}"]`);
       if (p && p.size && el) el.textContent += ' · ' + mb(p.size);
     }
