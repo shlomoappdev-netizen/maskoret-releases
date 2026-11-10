@@ -1,43 +1,42 @@
 {
-  "version": "4.23.0",
-  "build": 76,
+  "version": "4.23.1",
+  "build": 77,
   "date": "2026-11-10",
   "notes": [
-    "ניהול: המנהל הראשי יכול למנות חשבונות נוספים כמנהלים ולבחור לכל אחד לאילו כלים יש לו גישה — מנויים ומשתמשים, פניות תמיכה, משימות פיתוח והודעה לכולם. כל מנהל רואה רק את המסכים שקיבל, והשרת בודק את ההרשאה בכל פעולה",
-    "הודעה לכל המשתמשים: קישור לאתר בתוך ההודעה מופיע כקישור לחיץ ונפתח בדפדפן"
+    "אנדרואיד עובר ל-Google Play: מי שהתקין מהאתר יקבל הודעה עם קישור להרשמה לבטא, ומתקין מ-Google Play מעל האפליקציה הקיימת בלי לאבד נתונים. זה העדכון האחרון של האפליקציה דרך האתר באנדרואיד"
   ],
   "platforms": {
     "android": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.23.0/maskoret-android.apk",
-      "sha256": "d08f60d4fa29d01c45ddd693ccce5e90d0232c047543310b5cdc4e96e0fe272e",
-      "size": 117396627,
-      "version": "4.23.0",
-      "build": 76,
-      "sig": "CbirKM4BCIzWuLb+4uqmOnapQ7z3CeDUr36CNJUGEEAnJT82kJqH72wRIaJTu8bzIUplNcDZvrFvSEZSph8yAA=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.23.1/maskoret-android.apk",
+      "sha256": "ea1fad6a506ee28253510ef59369fba5816e853c6387468ead866269aedc2f90",
+      "size": 117396755,
+      "version": "4.23.1",
+      "build": 77,
+      "sig": "LxRetCd0HDkAAVsbdJ6sXEAhsn51Qm0MRtDGFV6+7Bbf34kzIGBFJbY8PsRBBE/RCXryFDSpIVSS3JrXFsxcAw=="
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.23.0/maskoret-windows.zip",
-      "sha256": "58013e964358ef8f9ce5d4483c1d3a8a1b83ffb226110487d2c9368e128a0e1c",
-      "size": 19305450,
-      "version": "4.23.0",
-      "build": 76,
-      "sig": "c+5y5ofdQkBB7mcbFqysveib3xdZ5v11sXfAr+bu1F6KX+6X9MHlX0fV1r1hEFeQnBi8dbxpQe133Ths90OjCw=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.23.1/maskoret-windows.zip",
+      "sha256": "92f67c9ba5e09948a227816b156949ff9bb3ef1968689c3f01431077c19ed6e2",
+      "size": 19305761,
+      "version": "4.23.1",
+      "build": 77,
+      "sig": "PdWiXZf7KiAmiFSPUBWYwnxtYo7CjkjbO/yxyydGvVwgxrOLIJem3qLtr3g0Bkb2m+8Ea+64V9GjVzmFtCaADg=="
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.23.0/maskoret-windows-setup.exe",
-      "sha256": "0056564b817b54daca880694e980dc70821712c1486035a4c85c8c350de75c39",
-      "size": 15651259,
-      "version": "4.23.0",
-      "build": 76,
-      "sig": "sJTQ4AY3EZmAa9waEKuVMqXIDBLLDmhIAJhcia3WhnKUyvFTLF5+h5xRxAM/BXhxJq0A8xaNQNSO81sALtojAA=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.23.1/maskoret-windows-setup.exe",
+      "sha256": "db9bbba0d377ae45de60dbc225b6d8e2139a051c345e28c0741aa33e91b49a6f",
+      "size": 15649279,
+      "version": "4.23.1",
+      "build": 77,
+      "sig": "czLuJOTAcVet15zZLDlu0dqk8PBN2jfKDYxf+WTBtX4mjVuZN2/aEFgcsQePUPzMK111CPBx9zbrcUnCJ+ctAQ=="
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.23.0/maskoret-mac.dmg",
-      "sha256": "7f93a9c4e48d85db9f63a3b35ecb2cb80397cfeafa657ccfd576599b755c1d4a",
-      "size": 12858397,
-      "version": "4.23.0",
-      "build": 76,
-      "sig": "A8LLn74RPA6AVzhvyEHQga7hU+0qJ8oLY6IWvYuzevWvFDYYb88esPfdKvQR1JmQw/px/sDALBv+OxODoOkkBA=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.23.1/maskoret-mac.dmg",
+      "sha256": "943491e60d0e63746f12a4e8aafe80d5cb0c9494edf3ba8362abecdcf143e71a",
+      "size": 12858390,
+      "version": "4.23.1",
+      "build": 77,
+      "sig": "/RuTSDLNMZKRmoSXqOVnmcRYW/sFc5sm0+uVy2DYLHmVAvcWMwyM7oO6fwuK2kjQho1uU8gPMBtIwGyJLLjSCA=="
     }
   }
 }
