@@ -911,6 +911,10 @@
       const p = m.platforms && m.platforms[k], el = $(`[data-size="${k}"]`);
       if (p && p.size && el) el.textContent += ' · ' + mb(p.size);
     }
+    // The newest desktop version (Android stays at the last APK; it comes from Google Play).
+    const desk = ['mac', 'windows_setup', 'windows'].map(k => m.platforms && m.platforms[k]).filter(p => p && p.version)
+      .sort((a, b) => (b.build || 0) - (a.build || 0))[0];
+    if (desk) m.version = desk.version;
     const d = m.date ? new Date(m.date).toLocaleDateString('he-IL', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
     $('#versionLine').innerHTML = `גרסה <b>${m.version}</b>${d ? ' · עודכנה ב-' + d : ''}`;
     $('#heroVersion').textContent = `גרסה ${m.version} · חינם · Android · Windows · Mac`;
