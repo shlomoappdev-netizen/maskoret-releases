@@ -731,7 +731,7 @@
           <button type="button" id="wNext">כבר עשיתי, לצעד הבא ←</button>
         </div>
       </div>
-      <p class="wnote">כבר מותקן מהאתר? מתקינים מ-Google Play מעל האפליקציה הקיימת, בלי להסיר אותה — הנתונים שמורים בשרת ונשארים.</p>
+      <p class="wnote"><b>כבר מותקן מהאתר?</b> לפני ההתקנה מ-Google Play צריך להסיר את האפליקציה הקיימת (לחיצה ארוכה על האייקון ← הסרה). הנתונים שמורים בשרת וחוזרים מיד אחרי ההתחברות.</p>
     </div>
   </div>
 </section>
@@ -925,7 +925,7 @@
     const steps = [
       { title: 'הצטרפות לקבוצת הבודקים', text: 'בדף שנפתח לוחצים "הצטרפות לקבוצה" (Join group). אם Google שואל על שם או על מיילים — משאירים כמו שזה ומאשרים.', label: 'להצטרפות לקבוצה', url: 'https://groups.google.com/g/maskoret-beta' },
       { title: 'אישור ההשתתפות בבטא', text: 'בדף שנפתח לוחצים "להיות בודק" (Become a tester). אם הדף לא נפתח — מחכים כמה דקות אחרי הצעד הקודם ומנסים שוב.', label: 'לאישור כבודק', url: 'https://play.google.com/apps/testing/com.shlomodavid.maskoret' },
-      { title: 'התקנה מ-Google Play', text: 'לוחצים "התקנה" בחנות. אם כתוב שהאפליקציה לא נמצאה — מחכים כמה דקות ומנסים שוב.', label: 'להתקנה מ-Google Play', url: 'https://play.google.com/store/apps/details?id=com.shlomodavid.maskoret' },
+      { title: 'התקנה מ-Google Play', text: 'לוחצים "התקנה" בחנות. אם האפליקציה כבר מותקנת מהאתר — מסירים אותה קודם (הנתונים בשרת). אם כתוב שהאפליקציה לא נמצאה — מחכים כמה דקות ומנסים שוב.', label: 'להתקנה מ-Google Play', url: 'https://play.google.com/store/apps/details?id=com.shlomodavid.maskoret' },
     ];
     const KEY = 'maskoretBetaStep';
     const load = () => { try { return Math.min(Math.max(parseInt(localStorage.getItem(KEY) || '0', 10) || 0, 0), steps.length); } catch (e) { return 0; } };
