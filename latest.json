@@ -1,11 +1,11 @@
 {
-  "version": "4.27.0",
-  "build": 85,
+  "version": "4.28.0",
+  "build": 86,
   "date": "2026-11-16",
   "notes": [
-    "אחרי ייבוא פירוט אשראי: חלון ״לשייך למגמה?״ עובר על בתי העסק החדשים שעוד לא משויכים למגמה ומציע לכל אחד מגמה — לפי מגמה שבית העסק כבר שויך אליה בעבר, לפי הקטגוריה בפירוט או לפי שם בית העסק. אפשר לאשר, לבחור מגמה אחרת או לדלג. החלון מופיע רק כשיש מגמות",
-    "״תמיד לבית העסק הזה״: מסמנים פעם אחת, ובייבוא הבא העסקאות של בית העסק נכנסות למגמה לבד",
-    "כש-AI מחובר במצב ענן, בתי עסק שלא נמצאה להם הצעה נשלחים למודל בבקשה אחת, וההצעות שלו מופיעות בחלון (שום דבר לא משויך בלי אישור)"
+    "התראות מהעוזר: כשמשהו בתקציב דורש תשומת לב — חריגה מתקרה של מגמה, מגמה שמתקרבת לתקרה או חודש שנכנס למינוס — מגיעה התראה לטלפון. לכל היותר התראה אחת ביום, וכל התראה פעם אחת",
+    "אנדרואיד: ההתראה מגיעה גם כשהאפליקציה סגורה, וגם כשהשינוי נעשה במכשיר אחר של משק הבית (למשל ייבוא פירוט אשראי במק)",
+    "אייפון: ההתראה מתוזמנת לבוקר שאחרי (9:00), לפי המצב בפעם האחרונה שהאפליקציה הייתה פתוחה"
   ],
   "platforms": {
     "android": {
@@ -17,28 +17,28 @@
       "sig": "LxRetCd0HDkAAVsbdJ6sXEAhsn51Qm0MRtDGFV6+7Bbf34kzIGBFJbY8PsRBBE/RCXryFDSpIVSS3JrXFsxcAw=="
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.27.0/maskoret-windows.zip",
-      "sha256": "3f15b3c4175ee035ab0ee53db6037f2043dab877fd4e66116aa0e9b4609a8509",
-      "size": 19359235,
-      "version": "4.27.0",
-      "build": 85,
-      "sig": "fkcXr14dtW17iRnfrUdpXWJVajvYzKCZ9xniT25iLN4eO4ORISIiNvWrKMMf1cRFjl5pMh/p4wW4SNRXkBZcCw=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.28.0/maskoret-windows.zip",
+      "sha256": "daed907a1ae28a7f9cc579dc5c889c2532fc4a67cd74ad85f736716afc661fe4",
+      "size": 19364075,
+      "version": "4.28.0",
+      "build": 86,
+      "sig": "E+VF8scz1O1JFmv4eEOklyGJKaXzhv9deYzhweXyHyYpTH94/XNRrefLPRy3X9q4sO0VQTGT3c1PkxBi3kRMBw=="
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.27.0/maskoret-windows-setup.exe",
-      "sha256": "4d55c0e1c9443e885b9f7cbfa7c0641f821d46eb1038d9c991052fc383b9b33d",
-      "size": 15688665,
-      "version": "4.27.0",
-      "build": 85,
-      "sig": "LdFctf2yRK8M5KF8zmPpNDrG3YQ1BkNNpY/0PEquW1neG4GRg8W6b6LrjPiYhQmDT4anqbnwTZfACy9x4YftAg=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.28.0/maskoret-windows-setup.exe",
+      "sha256": "2fa9f69f9493ca3e000de235cded281298ae971a41fb5707fbda7079077efad6",
+      "size": 15690529,
+      "version": "4.28.0",
+      "build": 86,
+      "sig": "C/1IjmPLagCpGPC2HBHkM/TUgYJRHT9Pu1syX1R2+qkboYYEqTEbV9twsSr3AQuB9e23hH9eAV+qOk8HWz/wDA=="
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.27.0/maskoret-mac.dmg",
-      "sha256": "d4826f0f992e51a87732ff629b4392f83c38fba38905e4ef0a5abc58fd2ef354",
-      "size": 13306378,
-      "version": "4.27.0",
-      "build": 85,
-      "sig": "yFQwVpXVzKusR12Cf3rw8kuCMpEBuAQMTzzDpw5WLkYOOghaKVFqSDWFgKqq7aLt7is4fJuD+jG8/IfQ+CF2CQ=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.28.0/maskoret-mac.dmg",
+      "sha256": "9d8757cabdd0dfeca3365f51e439c32bddb1a296f0a1cf08f8a4bda61d853c33",
+      "size": 13314962,
+      "version": "4.28.0",
+      "build": 86,
+      "sig": "QIraqBtMt6aTpXBqmwVM13yZRjmn9Hb7gKXO28h5IYXmtYstDn2ucteyAtYmdUeIs5GCP7P8eyGVbH/QuNybCg=="
     }
   }
 }
