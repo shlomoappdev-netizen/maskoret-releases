@@ -1,11 +1,9 @@
 {
-  "version": "4.28.0",
-  "build": 86,
+  "version": "4.29.0",
+  "build": 87,
   "date": "2026-11-16",
   "notes": [
-    "התראות מהעוזר: כשמשהו בתקציב דורש תשומת לב — חריגה מתקרה של מגמה, מגמה שמתקרבת לתקרה או חודש שנכנס למינוס — מגיעה התראה לטלפון. לכל היותר התראה אחת ביום, וכל התראה פעם אחת",
-    "אנדרואיד: ההתראה מגיעה גם כשהאפליקציה סגורה, וגם כשהשינוי נעשה במכשיר אחר של משק הבית (למשל ייבוא פירוט אשראי במק)",
-    "אייפון: ההתראה מתוזמנת לבוקר שאחרי (9:00), לפי המצב בפעם האחרונה שהאפליקציה הייתה פתוחה"
+    "מעקב רכישות: ברישום קנייה (״קניתי חדש״ או הקנייה האחרונה בפריט חדש) אפשר לבחור אחד מחיובי האשראי האחרונים — התאריך, המחיר המלא (גם בעסקת תשלומים) ובית העסק מתמלאים לבד, ואפשר עדיין לשנות אותם. החיוב שנבחר משויך לפריט, כך שהוא לא נספר פעמיים"
   ],
   "platforms": {
     "android": {
@@ -17,28 +15,28 @@
       "sig": "LxRetCd0HDkAAVsbdJ6sXEAhsn51Qm0MRtDGFV6+7Bbf34kzIGBFJbY8PsRBBE/RCXryFDSpIVSS3JrXFsxcAw=="
     },
     "windows": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.28.0/maskoret-windows.zip",
-      "sha256": "daed907a1ae28a7f9cc579dc5c889c2532fc4a67cd74ad85f736716afc661fe4",
-      "size": 19364075,
-      "version": "4.28.0",
-      "build": 86,
-      "sig": "E+VF8scz1O1JFmv4eEOklyGJKaXzhv9deYzhweXyHyYpTH94/XNRrefLPRy3X9q4sO0VQTGT3c1PkxBi3kRMBw=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.29.0/maskoret-windows.zip",
+      "sha256": "f3a5cfeb6069535feb736268698d9b95dfd29bd0ddd6f11c88af4aea09c9171d",
+      "size": 19369137,
+      "version": "4.29.0",
+      "build": 87,
+      "sig": "tPFOGANcqhZOi5sFnXb1dIkuwr9gV4FRIjitUGIitbvz1frzdz615YLiV730Or3omu9wqSORQkYSWpxLLE74Dw=="
     },
     "windows_setup": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.28.0/maskoret-windows-setup.exe",
-      "sha256": "2fa9f69f9493ca3e000de235cded281298ae971a41fb5707fbda7079077efad6",
-      "size": 15690529,
-      "version": "4.28.0",
-      "build": 86,
-      "sig": "C/1IjmPLagCpGPC2HBHkM/TUgYJRHT9Pu1syX1R2+qkboYYEqTEbV9twsSr3AQuB9e23hH9eAV+qOk8HWz/wDA=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.29.0/maskoret-windows-setup.exe",
+      "sha256": "efc2e0b413d9340f0e4f6c9d7fb549e1cca8b9dd1858adcaf7c68fa514e31964",
+      "size": 15694928,
+      "version": "4.29.0",
+      "build": 87,
+      "sig": "MRSMoVebkCWOZ+YsuBlSKmXbrWDNmyVLmv3Tr6GBGIPNigWaTzT3po6ET70quJj4mlly4A8606uiFlSdZAnBAQ=="
     },
     "mac": {
-      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.28.0/maskoret-mac.dmg",
-      "sha256": "9d8757cabdd0dfeca3365f51e439c32bddb1a296f0a1cf08f8a4bda61d853c33",
-      "size": 13314962,
-      "version": "4.28.0",
-      "build": 86,
-      "sig": "QIraqBtMt6aTpXBqmwVM13yZRjmn9Hb7gKXO28h5IYXmtYstDn2ucteyAtYmdUeIs5GCP7P8eyGVbH/QuNybCg=="
+      "url": "https://github.com/shlomoappdev-netizen/maskoret/releases/download/v4.29.0/maskoret-mac.dmg",
+      "sha256": "2a95195901c49af186e9786a2322b218fe583681b109e7e3eb9a8d67449bb0df",
+      "size": 13345226,
+      "version": "4.29.0",
+      "build": 87,
+      "sig": "UFc6ALzMNQ0fd1kIdVVRn/T8p6V+0rRmKOR15NkZ3JucM8pyVK/oMJ9/ZBcgxERINauubcJDmR8MgBFPNDwsAg=="
     }
   }
 }
